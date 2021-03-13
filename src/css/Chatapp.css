@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: #e4e4e485;
+    font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 768px) {
+
+    .main-container{
+        overflow-y: unset;
+    }
+
+    .nav-container{
+        background: #5C0094;
+        width: 100%;
+        color: #FFF;
+        position: relative;
+    }
+    .nav-items{
+        width: 100%;
+        display: flex;
+    }
+    .nav-items .fa-bars{
+        font-size: 25px;
+        margin: 15px;
+    }
+    .nav-items .fa-ellipsis-v{
+        font-size: 25px;
+        position: absolute;
+        right: 0;
+        margin: 15px;
+    }
+    .nav-items h3{
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .bottom-container{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .bottom-items{
+        display: flex;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    .bottom-items input{
+        outline: none;
+        border: none;
+        padding: 15px;
+        border-radius: 70px;
+        width: 70%;
+    }
+    .bottom-items .send{
+        color: #fff;
+        background-color: rgb(64, 255, 121);
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .send i{
+        position: absolute;
+        top: 0;
+        margin: 10px;
+        font-size: 25px;
+    }
+
+}
