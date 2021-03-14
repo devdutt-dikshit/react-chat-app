@@ -66,5 +66,37 @@ body{
         margin: 10px;
         font-size: 25px;
     }
+    .receive-body{
+        border-radius: 50px;
+        margin-left: 5px;  
+    }
+    .receiver-msg{
+        margin: 10px 0;
+        background: #fff;
+        width: 90%;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .sender-msg{
+        margin: 10px 0;
+        background: #fff;
+        width: 90%;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .sender-body{
+        border-radius: 50px;
+        margin-left: 5px;
+    }
+    .user-name{
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .msg-body{
+        height: 83vh;
+        overflow-x: scroll;
+    }
+    
 
 }
